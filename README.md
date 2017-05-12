@@ -103,4 +103,17 @@ Class Average: 63.5
 
 ### Problem 4
 
+### Problem 5
+
+Write a Java program that:
+ 1. Reads the text file “Teacher data.txt” into a 2D array of Strings of size 50x3 named teacherData. The columns of the data file represent
+```
+    <Teacher last name> <Subject area> <Number of years teaching experience>
+```
+ 2. Uses a loop to go through the teacherData array and calculate the average number of years of teaching experience among teachers who have math, science or tech as their subject area.   Print the answer to the screen.
+
+You must use the 2D array to do the counting (i.e. you can't count values while the data is being read in from the file).
+
+### Problem 6
+
 Matrix multiplication
