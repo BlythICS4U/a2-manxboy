@@ -103,9 +103,28 @@ Class Average: 63.5
 
 ### Problem 4
 
+Write a program that reads in the text file called "myText.txt".  Determine the following:
+ 1. The number of words in the file. A word is defined as text surrounded by whitespace (i.e. the line "A cost-effective method was used!" contains 5 words.
+ 2. The number of lines in the file.
+ 3. The longest word in the file (if there is a tie, any of the longest words will do).
+ 4. The length of the longest word.
+ 5. The average word length.
+ 
+Output these values to a text file called "myTextData.txt".  Formatting should look similar to the following (the numbers are below are merely examples):
+
+```
+The file "myText.txt" was successfully read.
+
+Number of words:     98
+Number of lines:     8
+Longest word:        fantastic!
+Longest word length: 10
+Average word length: 4.3
+```
+
 ### Problem 5
 
-Write a Java program that:
+Write a program that:
  1. Reads the text file “Teacher data.txt” into a 2D array of Strings of size 50x3 named teacherData. The columns of the data file represent
 ```
     <Teacher last name> <Subject area> <Number of years teaching experience>
