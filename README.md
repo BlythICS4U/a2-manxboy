@@ -6,6 +6,11 @@ A separate NetBeans project has been provided for each assignment question. Befo
 
 ### Problem 1
 
+Write the following math functions as methods:
+
+![alt text](https://github.com/BlythICS4U/a2/blob/master/MathFormulas.png "Math formulas")
+
+Import the *java.lang.Math* package to assist with the calculations as necessary.  In your main method, ask the user to input a double value for *x* and a double value for *y*.  Output the result of each of the calculations.
 
 ### Problem 2
 
