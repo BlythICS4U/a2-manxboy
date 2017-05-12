@@ -139,7 +139,7 @@ You must use the 2D array to do the counting (i.e. you can't count values while 
 
 ### Problem 6
 
-Write a program that reads in the binary file called "myMatricies.bin".  This file contains 2, 2D integer arrays.  Read the first array into a variable called *matrix1* and read the 2nd array into a variable called *matrix2*.  Write a method called *multiplyMatrices* that multiplies 2 matrices and returns the resulting matrix as a 2D array.  Print the result to the screen.  You can assume that the matrices contained in the binary file can be multpilied together (i.e. the columns of *matrix1* are equal to the rows of *matrix2*).  To make sure you are correctly reading the file, the contents of your variables will be equivalent to the definitions below:
+Write a program that reads in the binary file called "myMatrices.bin".  This file contains 2, 2D integer arrays.  Read the first array into a variable called *matrix1* and read the 2nd array into a variable called *matrix2*.  Write a method called *multiplyMatrices* that multiplies 2 matrices and returns the resulting matrix as a 2D array.  Print the result to the screen.  You can assume that the matrices contained in the binary file can be multpilied together (i.e. the columns of *matrix1* are equal to the rows of *matrix2*).  To make sure you are correctly reading the file, the contents of your variables will be equivalent to the definitions below:
 
 ```
         int matrix1[][] = {
