@@ -7,7 +7,6 @@ A separate NetBeans project has been provided for each assignment question. Befo
 ### Problem 1
 
 
-
 ### Problem 2
 
 Input an integer called *size*. Determine the primes from 2 through *size* by using the [Sieve of Eratosthenes](https://en.wikipedia.org/wiki/Sieve_of_Eratosthenes). Program should be written as follows:
