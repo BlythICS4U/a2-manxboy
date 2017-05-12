@@ -56,3 +56,51 @@ All primes less than or equal to 500 are:
 419       421       431       433       439       443       449       457       461       463        
 467       479       487       491       499       
 ```
+
+### Problem 3
+
+Write a program that uses a 2-dimensional array to maintain a teacher's Grade Book containing their marks records. All marks are out of 100 and have equal weighting. Calculate and output student averages, test averages, and the overall class average. Your program **does not** have to work with any other data set (i.e. it can be hard-wired to only work for 13 students and 6 tests, as provided in this data set). Use the following data:
+
+```
+int gradesArray[][]={{ 56 , 38 , 38 , 88 , 52 , 42 },
+                     { 85 , 35 , 91 , 94 , 60 , 47 },
+                     { 78 , 62 , 70 , 42 , 93 , 65 },
+                     { 33 , 75 , 82 , 45 , 73 , 83 },
+                     { 60 , 80 , 71 , 82 , 73 , 38 },
+                     { 80 , 55 , 48 , 59 , 36 , 80 },
+                     { 30 , 91 , 79 , 81 , 61 , 61 },
+                     { 47 , 54 , 68 , 64 , 73 , 65 },
+                     { 32 , 54 , 84 , 52 , 64 , 80 },
+                     { 82 , 82 , 39 , 65 , 48 , 41 },
+                     { 65 , 81 , 81 , 38 , 93 , 86 },
+                     { 44 , 74 , 64 , 61 , 58 , 77 },
+                     { 31 , 31 , 44 , 93 , 52 , 94 }};
+```
+
+Output should be formatted in a table as follows:
+
+```
+Name           Test 1  Test 2  Test 3  Test 4  Test 5  Test 6  Average
+-------------  ------  ------  ------  ------  ------  ------  -------
+Student 1          56      38      38      88      52      42    52.33
+Student 2          85      35      91      94      60      47    68.67
+Student 3          78      62      70      42      93      65    68.33
+Student 4          33      75      82      45      73      83    65.17
+Student 5          60      80      71      82      73      38    67.33
+Student 6          80      55      48      59      36      80    59.67
+Student 7          30      91      79      81      61      61    67.17
+Student 8          47      54      68      64      73      65    61.83
+Student 9          32      54      84      52      64      80    61.00
+Student 10         82      82      39      65      48      41    59.50
+Student 11         65      81      81      38      93      86    74.00
+Student 12         44      74      64      61      58      77    63.00
+Student 13         31      31      44      93      52      94    57.50
+
+Test Average     55.6    62.5    66.1    66.5    64.3    66.1
+
+Class Average: 63.5
+```
+
+### Problem 4
+
+Matrix multiplication
