@@ -8,7 +8,7 @@ A separate NetBeans project has been provided for each assignment question. Befo
 
 Write the following math functions as methods:
 
-![alt text](https://github.com/BlythICS4U/a2/blob/master/MathFormulas.png "Math formulas")
+![alt text](MathFormulas.png "Math formulas")
 
 Import the *java.lang.Math* package to assist with the calculations as necessary.  In your main method, ask the user to input a double value for *x* and a double value for *y*.  Output the result of each of the calculations.
 
@@ -19,7 +19,7 @@ Input an integer called *size*. Determine the primes from 2 through *size* by us
  * Initialize all elements of the array to *true (t)*. 
  * Don't use the elements *primes[0]* or *primes[1]*. 
  * Mark non-prime numbers as *false* by following the algorithm outlined by the the Sieve of Eratosthenes.
- 
+
  As an example, suppose the number 25 was entered.  Here are the first few iterations of the algorithm:
 
 ```
@@ -113,7 +113,7 @@ Write a program that reads in the text file called "myText.txt" (on Mac) or "myT
  3. The longest word in the file (if there is a tie, any of the longest words will do).
  4. The length of the longest word.
  5. The average word length.
- 
+
 Output these values to a text file called "myTextData.txt".  Formatting should look similar to the following (the numbers are below are merely examples):
 
 ```
